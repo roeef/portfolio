@@ -2,20 +2,30 @@ body {
     margin: 0;
 }
 
-img {
+.head-img {
     display: block;
     width: 100%;
-    height: 250px;
+    height: 50ex;
     object-fit: cover;
-    object-position: 0 75%;
+    object-position: 0 40%;
 }
-.heading {
-    /*border: double;*/
-    color: lightgrey;
-    left: 0;
-    position:absolute;
-    text-align:center;
-    horiz-align: center;
-    top: 30px;
-    width: 100%
+
+.display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);}
+.display-bottom-left{position: absolute; top:85%; left:15%; transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);}
+
+.display-container{position:relative}
+
+.radius-test {
+    /*border:3px solid #696969;*/
+    border-radius: 50%!important;
 }
+
+.shadow {
+    box-shadow: 3px 3px 7px grey;
+}
+
+.border{border:3px solid #696969}
+.padding-large{padding:12px 24px!important;   margin: 0}
+.trans-background{background-color: rgba(255, 255, 255, 0.3)}
+.some-font{font-family: 'Indie Flower', cursive}
+.no-margins{margin: 0}
